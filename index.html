@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bootstrap site</title>
+    <link rel="stylesheet" href="boostrap 5.0/css/bootstrap.min.css" />
+  </head>
+  <body>
+   <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">TechBrains Institute</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="#">Instructors</a>
+         </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Courses
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="#">Graphics and Multimedia</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Software Development</a></li>
+              <li><a class="dropdown-item" href="#">Autocad/Revit</a></li>
+              <li><a class="dropdown-item" href="#">UI/UX</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="#">Questions</a>
+         </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </div>
+    </div>
+  </nav>
+  <!-- nav bar ends -->
+  <!-- home page begins -->
+  <div class="container-fluid bg-dark">
+   <div class="row">
+    <div class="col-md-6  mt-5" >
+     <h1 class="text-light" >Learn the <span class="text-warning">21st Century Skills </span> </h1>
+     <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus a labore non molestiae voluptatem dolore impedit eos tenetur ullam, tempora obcaecati sint iure debitis voluptas animi repellendus quod similique quaerat.</p>
+     <!-- <button type="button" id="example" class="btn btn-primary">Enroll Here</button> -->
+
+     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Enroll Here</button>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <div class="modal-header">
+           <h5 class="modal-title text-center" id="exampleModalLabel">Register Here</h5>
+
+           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+           <form>
+             <div class="mb-3">
+               <label for="recipient-name" class="col-form-label">Name:</label>
+               <input type="text" class="form-control" id="recipient-name"
+               placeholder="Enter your name">
+             </div>
+             <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Email:</label>
+              <input type="text" class="form-control" id="recipient-name" placeholder="Enter Email">
+            </div>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">Phone number:</label>
+              <input type="text" class="form-control" id="recipient-name"placeholder="Enter your phone number">
+            </div>
+           </form>
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-primary">Submit</button>
+         </div>
+       </div>
+     </div>
+   </div>
+    </div>
+    <div class="col-md-6">
+     <img
+            src="images/home2.png"
+            class="img-fluid"
+            alt="..."
+          />
+    </div>
+   </div>
+  </div>
+
+
+   <!-- modal begins -->
+
+  <!-- home page ends -->
+  <!-- newsletter begins -->
+  <div class="container-fluid bg-primary pb-5">
+    <div class="row">
+      <div class="d-md-flex justify-content-between align-items-center">
+       <div><h3 class="text-light mb-3 mb-md-0 mt-3">Sign Up For Our Newsletter</h3></div>
+
+      <div class="input-group news-input mt-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="Enter Email">
+          <button type="button" class="btn btn-primary bg-dark">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- newsletter ends -->
+  <!-- classes begins -->
+  <div class="container mt-5 d-md-flex justify-content-evenly align-items-center ">
+    <div class="row text-center">
+      <div class="card bg-dark text-light" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Virtual Class</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum beatae doloribus quam accusantium dolores facere itaque, laboriosam eum iusto quos.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+
+      <div class="card bg-secondary text-light mx-5" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Physical Class</h5>
+          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, praesentium. Amet impedit sit esse fugit voluptatibus veritatis cum dicta sequi.</p>
+          <a href="#" class="btn btn-dark">Read More</a>
+        </div>
+      </div>
+
+      <div class="card bg-dark text-light" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Corporate Class</h5>
+          <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti architecto maiores voluptatibus eos aut eaque cupiditate dicta nobis dignissimos voluptas?</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- classes ends -->
+  <!-- products starts -->
+  <div class="container-fluid mt-3 px-5">
+    <div class="row">
+      <div class="col d-flex align-items-center">
+        <img src="images/htmlCSS.png"
+        class="img-fluid">
+      </div>
+      <div class="col pt-5">
+        <p class="h1">Learn Web Design  </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam facere voluptate animi tempore cupiditate debitis, sint suscipit, ducimus laudantium, nemo modi! Sed ea labore non eligendi ab sit adipisci provident est beatae, consequuntur, quos blanditiis, commodi quia neque nisi delectus. Suscipit tenetur ex necessitatibus possimus impedit similique. Dolorem, vitae adipisci?</p>
+        <p class="lead"> ipsum dolor sit amet consectetur adipisicing elit. Dolor accusamus ad dolorem saepe omnis optio repellat libero? Eaque, assumenda sapiente.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-dark mt-3 px-5">
+    <div class="row">
+      <div class="col pt-5">
+        <p class="h1 text-light">Learn Web Design  </p>
+        <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, adipisci? Aliquam laboriosam earum at inventore magni id necessitatibus nihil beatae!</p>
+        <p class="lead text-light"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam facere voluptate animi tempore cupiditate debitis, sint suscipit, ducimus laudantium, nemo modi! Sed ea labore non eligendi ab sit adipisci provident est beatae, consequuntur, quos blanditiis, commodi quia neque nisi delectus. Suscipit tenetur ex necessitatibus possimus impedit similique. Dolorem, vitae adipisci?</p>
+      </div>
+      <div class="col pt-5">
+        <img src="images/java.jpg"
+        class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <!-- products end -->
+  <!-- Questions begins -->
+  <div class="container">
+  <h2 class="que fw-bold text-center mt-5">Frequently Asked Questions</h2>
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          How do I get started?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          What are the perequisite to having these trainings?
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          How much does the training cost?
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+          Where exactly are they located?
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+          Will I get a job after the training?
+        </button>
+      </h2>
+      <div id="collapseFive"class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Questions ends -->
+  <!-- Instructors begins -->
+  <div class="container-fluid bg-primary">
+    <h2 class="inst text-light text-center pt-4 mt-4">Meet Our Instructors</h2>
+    <p class="inst1 text-light text-center mt-3">Our instructors are all internationally certified with over 6+ years
+       experience working as an IT Expert</p>
+    <div class="row align-items-center justify-content-evenly ">
+      <div class="col-sm-6 col-md-3">
+        <div class="card" style="width: 18rem;">
+        <img src="images/user2.jpg" class=" img-fluid card-img-top mt-3 rounded-circle me-auto"alt="..." style="width:120px;margin: auto;">
+        <h3 class="text-center mt-2">John Clark</h3>
+         <div class="card-body">
+          <p class="card-text text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum dolores quasi, molestiae debitis assumenda ipsam soluta hic harum amet inventore!</p>
+         </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-3">
+        <div class="card" style="width: 18rem;">
+        <img src="images/user2.jpg" class="card-img-top mt-3 rounded-circle me-auto"alt="..." style="width:120px;margin: auto;">
+        <h3 class="text-center mt-2">John Clark</h3>
+         <div class="card-body">
+          <p class="card-text text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum dolores quasi, molestiae debitis assumenda ipsam soluta hic harum amet inventore!</p>
+         </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-3">
+        <div class="card" style="width: 18rem;">
+        <img src="images/user2.jpg" class="card-img-top mt-3 rounded-circle me-auto"alt="..." style="width:120px;margin: auto;">
+        <h3 class="text-center mt-2">John Clark</h3>
+         <div class="card-body align-items-center justify-content-center">
+          <p class="card-text text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum dolores quasi, molestiae debitis assumenda ipsam soluta hic harum amet inventore!</p>
+         </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-md-3">
+        <div class="card" style="width: 18rem;">
+        <img src="images/user2.jpg" class="card-img-top mt-3 rounded-circle me-auto"alt="..." style="width:120px;margin: auto;">
+        <h3 class="text-center mt-2">John Clark</h3>
+         <div class="card-body">
+          <p class="card-text text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum dolores quasi, molestiae debitis assumenda ipsam soluta hic harum amet inventore!</p>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Instructors end -->
+  <!-- our works
+  <div class="container">
+    <h2 class="text-center mt-4 mb-5">Our Works Speaks for Us</h2>
+    <div class="row">
+      <div class="col">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="images/user2.jpg" class="d-block w-10 me-auto rounded-circle" alt="..." style="margin:auto ;">
+              <div class="carousel-caption d-none d-md-block"  style="margin:300px ;">
+                <h3>Matthew Darwin</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque dolores aut amet sapiente distinctio. Hic maiores fugiat eveniet quidem saepe inventore quod esse, minus magni sunt. Fuga alias deserunt adipisci.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/pic-2.png" class="d-block w-20 me-auto rounded-circle" alt="..." style="margin:auto ;">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/user1.jpg" class="d-block w-10 me-auto rounded-circle" alt="..." style="margin:auto ;">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  our works -->
+
+
+
+    <script src="boostrap 5.0/js/bootstrap.min.js">
+
+const exampleModal = document.getElementById('exampleModal')
+exampleModal.addEventListener('show.bs.modal', event => {
+  // Button that triggered the modal
+  const button = event.relatedTarget
+  // Extract info from data-bs-* attributes
+  const recipient = button.getAttribute('data-bs-whatever')
+  // If necessary, you could initiate an AJAX request here
+  // and then do the updating in a callback.
+  //
+  // Update the modal's content.
+  const modalTitle = exampleModal.querySelector('.modal-title')
+  const modalBodyInput = exampleModal.querySelector('.modal-body input')
+
+  modalTitle.textContent = `New message to ${recipient}`
+  modalBodyInput.value = recipient
+})
+    </script>
+  </body>
+</html>
